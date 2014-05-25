@@ -1,13 +1,12 @@
-EMD algorithm
+Fault Diagnosis
 
-IMF //
+EMD.cpp,EMD.h:经验模态分解
 
-io //数据输入输出
+ApEn.h:计算近似熵
 
-isimf //判断是否为imf
-sd //计算标准差
-ismonotonic //分解停止准则
+svm.h,svm.cpp:支持向量机的基本算法
 
-findpeaks //查找极点
-spline	//曲线拟合（三次样条拟合算法）
-calcmean //计算均值
+svm_sacle.h:支持向量机算法预处理，归一化处理
+svm-train.h；支持向量机样本训练，得到预测模型
+svm_predict.h；支持向量机预测估计
+
